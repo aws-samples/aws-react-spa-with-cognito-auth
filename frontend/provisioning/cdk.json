@@ -1,0 +1,10 @@
+{
+  "app": "npx ts-node --prefer-ts-exts bin/provisioning.ts",
+  "context": {
+    "allowedIpAddressRanges": ["0.0.0.0/1", "128.0.0.0/1"],
+    "allowedIpAddressRangesV6": [
+      "0000:0000:0000:0000:0000:0000:0000:0000/1",
+      "8000:0000:0000:0000:0000:0000:0000:0000/1"
+    ]
+  }
+}
